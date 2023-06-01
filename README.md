@@ -51,54 +51,54 @@ class Universitas: #kelas universitas
                 return mahasiswa #bila fungsi ini akan mengulang program jika ada kecocokan, program akan langsung mengembalikan objek
         return None#ini tidak ditemukan nama mahasiswa dengan nama yang sesuai, maka program akan mengembalikan fungsi program tersebut
 
-# Membuat objek Universitas dengan nama "XYZ University"
+#Membuat objek Universitas dengan nama "XYZ University"
 universitas_xyz = Universitas("XYZ University")
 
-# Membuat objek Jurusan dengan nama "Teknik Informatika" dan tambahkan ke dalam Universitas XYZ
+#Membuat objek Jurusan dengan nama "Teknik Informatika" dan tambahkan ke dalam Universitas XYZ
 jurusan_ti = Jurusan("Teknik Informatika") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ti) #membuat objek jurusan pada universitas
 
-# Membuat objek Mahasiswa dengan nama "Davi Sulaiman", NIM "G1A022001", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ
+#Membuat objek Mahasiswa dengan nama "Davi Sulaiman", NIM "G1A022001", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ
 mahasiswa_davi = Mahasiswa("Davi Sulaiman", "G1A022001", jurusan_ti) #membuat objek untuk nama dan nim
 jurusan_ti.tambah_mahasiswa(mahasiswa_davi) #menambahkan objek ke dalam jurusan di universitas
 
-# Menambahkan Jurusan Teknik Sipil
+#Menambahkan Jurusan Teknik Sipil
 jurusan_ts = Jurusan("Teknik Sipil")#menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ts) #membuat objek jurusan pada universitas
 
-# Menambahkan Mahasiswa Fadli ke Jurusan Teknik Sipil di Universitas XYZ
+#Menambahkan Mahasiswa Fadli ke Jurusan Teknik Sipil di Universitas XYZ
 mahasiswa_fadli = Mahasiswa("Fadli", "G1B022002", jurusan_ts) #membuat objek untuk nama dan nim
 jurusan_ts.tambah_mahasiswa(mahasiswa_fadli)#menambahkan objek ke dalam jurusan di universitas
 
-# Menambahkan Jurusan Teknik Mesin
+#Menambahkan Jurusan Teknik Mesin
 jurusan_tm = Jurusan("Teknik Mesin")#menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_tm) #membuat objek jurusan pada universitas
 
-# Menambahkan Mahasiswa Ranes ke Jurusan Teknik Mesin di Universitas XYZ
+#Menambahkan Mahasiswa Ranes ke Jurusan Teknik Mesin di Universitas XYZ
 mahasiswa_ranes = Mahasiswa("Ranes", "G1C022003", jurusan_tm) #membuat objek untuk nama dan nim
 jurusan_tm.tambah_mahasiswa(mahasiswa_ranes)#menambahkan objek ke dalam jurusan di universitas
 
-# Menambahkan Jurusan Teknik Elektro
+#Menambahkan Jurusan Teknik Elektro
 jurusan_te = Jurusan("Teknik Elektro") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_te) #membuat objek jurusan pada universitas
 
-# Menambahkan Mahasiswa Rama ke Jurusan Teknik Elektro di Universitas XYZ
+#Menambahkan Mahasiswa Rama ke Jurusan Teknik Elektro di Universitas XYZ
 mahasiswa_rama = Mahasiswa("Rama", "G1D022004", jurusan_te) #membuat objek untuk nama dan nim
 jurusan_te.tambah_mahasiswa(mahasiswa_rama)#menambahkan objek ke dalam jurusan di universitas
 
-# Menambahkan Jurusan Arsitektur
+#Menambahkan Jurusan Arsitektur
 jurusan_ar = Jurusan("Arsitektur") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ar) #membuat objek jurusan pada universitas
 
-# Menambahkan Mahasiswa Risma ke Jurusan Arsitektur di Universitas XYZ
+#Menambahkan Mahasiswa Risma ke Jurusan Arsitektur di Universitas XYZ
 mahasiswa_risma = Mahasiswa("Risma", "G1E022005", jurusan_ar) #membuat objek untuk nama dan nim
 jurusan_ar.tambah_mahasiswa(mahasiswa_risma)#menambahkan objek ke dalam jurusan di universitas
 
-# Menambahkan Jurusan Sistem Informasi
+#Menambahkan Jurusan Sistem Informasi
 jurusan_si = Jurusan("Sistem Informasi") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_si) #membuat objek jurusan pada universitas
 
-# Menambahkan Mahasiswa Ajeng ke Jurusan Sistem Informasi di Universitas XYZ
+#Menambahkan Mahasiswa Ajeng ke Jurusan Sistem Informasi di Universitas XYZ
 mahasiswa_ajeng = Mahasiswa("Ajeng", "G1F022006", jurusan_si) #membuat objek untuk nama dan nim
 jurusan_si.tambah_mahasiswa(mahasiswa_ajeng)#menambahkan objek ke dalam jurusan di universitas
 
@@ -139,38 +139,38 @@ while True: #program ini mengginakan loop untuk berjalan terus menerus hingga pe
 print("Program selesai.") #berfungsi sebagai Setelah loop selesai, program akan mencetak pesan "Program selesai."
 
 2.Buatlah sebuah objek Universitas dengan nama "XYZ University".
-# Membuat objek Universitas dengan nama "XYZ University"
+#Membuat objek Universitas dengan nama "XYZ University"
 universitas_xyz = Universitas("XYZ University")
 
 3.Buatlah objek Jurusan dengan nama "Teknik Informatika" dan tambahkan objek tersebut ke dalam Universitas XYZ.
-# Membuat objek Jurusan dengan nama "Teknik Informatika" dan tambahkan ke dalam Universitas XYZ
+#Membuat objek Jurusan dengan nama "Teknik Informatika" dan tambahkan ke dalam Universitas XYZ
 jurusan_ti = Jurusan("Teknik Informatika") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ti) #membuat objek jurusan pada universitas
 
 namun disini saya membuat fungsi menambahkan jurusan yang ada 
 
-# Menambahkan Jurusan Teknik Sipil
+#Menambahkan Jurusan Teknik Sipil
 jurusan_ts = Jurusan("Teknik Sipil")#menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ts) #membuat objek jurusan pada universitas
 
-# Menambahkan Jurusan Teknik Mesin
+#Menambahkan Jurusan Teknik Mesin
 jurusan_tm = Jurusan("Teknik Mesin")#menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_tm) #membuat objek jurusan pada universitas
 
-# Menambahkan Jurusan Teknik Elektro
+#Menambahkan Jurusan Teknik Elektro
 jurusan_te = Jurusan("Teknik Elektro") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_te) #membuat objek jurusan pada universitas
 
-# Menambahkan Jurusan Arsitektur
+#Menambahkan Jurusan Arsitektur
 jurusan_ar = Jurusan("Arsitektur") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_ar) #membuat objek jurusan pada universitas
 
-# Menambahkan Jurusan Sistem Informasi
+#Menambahkan Jurusan Sistem Informasi
 jurusan_si = Jurusan("Sistem Informasi") #menambah jurusan
 universitas_xyz.tambah_jurusan(jurusan_si) #membuat objek jurusan pada universitas
 
 4.Buatlah objek Mahasiswa dengan nama "Kalian masing", NIM "Kalian masing", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ.
-# Membuat objek Mahasiswa dengan nama "Davi Sulaiman", NIM "G1A022001", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ
+#Membuat objek Mahasiswa dengan nama "Davi Sulaiman", NIM "G1A022001", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ
 mahasiswa_davi = Mahasiswa("Davi Sulaiman", "G1A022001", jurusan_ti) #membuat objek untuk nama dan nim
 jurusan_ti.tambah_mahasiswa(mahasiswa_davi) #menambahkan objek ke dalam jurusan di universitas
 
